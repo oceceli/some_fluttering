@@ -1,4 +1,4 @@
-# pokemon_info
+# pokemons
 
 A new Flutter project.
 
