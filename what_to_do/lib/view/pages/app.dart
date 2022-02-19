@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       body: ListView.builder(
         itemBuilder: (context, index) {
-          return const ListItem();
+          return ListItem();
         },
       ),
       floatingActionButton: FloatingActionButton(
@@ -30,7 +30,7 @@ class App extends StatelessWidget {
 }
 
 class ListItem extends StatelessWidget {
-  const ListItem({
+  ListItem({
     Key? key,
   }) : super(key: key);
 
